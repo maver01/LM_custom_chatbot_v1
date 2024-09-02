@@ -1,0 +1,33 @@
+Lecture Notes: Introduction to Machine Learning
+What is Machine Learning?
+Machine Learning (ML) is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. ML focuses on the development of algorithms that can analyze and make predictions from data.
+
+Types of Machine Learning:
+Supervised Learning: In this type, the model is trained on a labeled dataset, meaning that each training example is paired with an output label. The goal is to learn a mapping from inputs to outputs.
+
+Example Algorithms: Linear Regression, Support Vector Machines (SVM), Decision Trees.
+Unsupervised Learning: Here, the model works on unlabeled data and tries to find hidden patterns or intrinsic structures within the data.
+
+Example Algorithms: K-Means Clustering, Principal Component Analysis (PCA), Autoencoders.
+Reinforcement Learning: A type of learning where an agent learns to make decisions by taking actions in an environment to maximize cumulative rewards.
+
+Example Algorithms: Q-Learning, Deep Q Networks (DQN), Policy Gradients.
+Key Concepts:
+Overfitting: When a model performs well on training data but fails to generalize to new, unseen data.
+Underfitting: When a model is too simple and fails to capture the underlying pattern in the data, leading to poor performance even on training data.
+Bias-Variance Tradeoff: The balance between the error due to bias (error from wrong assumptions in the learning algorithm) and the error due to variance (error from sensitivity to small fluctuations in the training set).
+Common Applications of Machine Learning:
+Image Recognition: Identifying objects, faces, or scenes in images.
+Natural Language Processing (NLP): Analyzing and generating human language, such as text classification, sentiment analysis, and machine translation.
+Predictive Analytics: Using historical data to make predictions about future events, like stock price movements or disease outbreaks.
+Tools and Libraries:
+Scikit-learn: A Python library for simple and efficient tools for data mining and data analysis.
+TensorFlow & PyTorch: Deep learning frameworks that allow for building and training neural networks.
+Keras: A high-level neural networks API, capable of running on top of TensorFlow or Theano.
+Challenges in Machine Learning:
+Data Quality: Machine learning models require large amounts of high-quality data. Poor data quality can lead to incorrect predictions.
+Interpretability: Many machine learning models, especially complex ones like deep neural networks, are often considered "black boxes," making it difficult to understand how they make decisions.
+Scalability: As data grows, ensuring that machine learning models can scale efficiently becomes a challenge.
+
+Main author: Chatgpt
+Other authors: MS, CH
